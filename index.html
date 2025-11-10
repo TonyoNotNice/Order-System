@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef's Favorite Meals Order System</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Chef's Favorite Meals Order System</h1>
+        
+        <div class="input-section">
+            <h2>Place a New Order</h2>
+            <input type="text" id="ingredientInput" placeholder="Enter main ingredient (e.g., beef, chicken, lemon)">
+            <button id="placeOrderBtn">Place Order</button>
+            <div id="errorMessage" class="error"></div>
+        </div>
+        
+        <div class="orders-section">
+            <h2>Current Orders</h2>
+            <div id="ordersContainer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
